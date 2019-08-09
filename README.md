@@ -1,8 +1,8 @@
 # Redis-Dockerfile 사용법
 
 ## Create docker Image
-docker build --t <Dockerfile Path> 형식입니다.
-example: sudo docker build --t pegasuskim-redis:latest ./dockerfile
+docker build --t <Dockerfile Path> 형식입니다.<br>
+example: sudo docker build --t pegasuskim-redis:latest ./dockerfile.<br>
 
 ## Docker image file list
 sudo docker images
