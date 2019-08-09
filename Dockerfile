@@ -27,7 +27,7 @@ RUN \
   apt-get install -y make && \
   apt-get install -y vim && \
   apt-get install -y redis-server && \
-  sed -i 's/requirepass .*/requirepass !@hyperion78*/' /etc/redis/redis.conf && \
+  sed -i 's/requirepass .*/requirepass asdf12/' /etc/redis/redis.conf && \
   sed 's/^# requirepass /requirepass /' -i /etc/redis/redis.conf && \
   sed -i 's/port .*/port 63785/' /etc/redis/redis.conf && \
 
